@@ -1,0 +1,81 @@
+<html>
+<html lang="en">
+<head>
+<title>Menu</title>
+<head>
+    <title>Images with Names Side by Side</title>
+    <style>
+        .image-wrapper {
+	background-color:#D3D3D3;
+            display: inline-block;
+            text-align: center; /* Center-align the text below the image */
+            margin-right: 30px; /* Optional space between images */
+        }
+    </style>
+</head>
+<body>
+<div class="image-wrapper">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\Screenshots\manchuria.jpg" alt="Manchuria" width="150px" height="150px">
+<div>Manchuria</div> <!-- Name -->
+    </div>
+<div class="image-wrapper">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\friees.jpg" class="image" width="150px" height="150px">
+<div>French Fries</div> <!-- Name -->
+    </div>
+<div class="image-wrapper">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\noodles.jpeg"class="image" width="150px" height="150px">
+<div>Noodles</div> <!-- Name -->
+    </div>
+<div class="image-wrapper">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\chiccken.jpeg"class="image" width="150px" height="150px">
+<div>Chicken Pakoda</div> <!-- Name -->
+    </div>
+<div class="image-wrapper">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\shawarma.jpeg"class="image" width="150px" height="150px">
+<div>Shawarma</div> <!-- Name -->
+    </div>
+</body>
+<br><br><br>
+
+    <style>
+       
+
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+        }
+
+        .marquee-images {
+            display: inline-block;
+            animation: marquee-animation 10s linear infinite;
+        }
+
+        @keyframes marquee-animation {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        footer {
+            position: absolute; 
+            bottom: 0; 
+            width: 100%; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 10px 0; 
+            color: white;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="marquee-images">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\Screenshots\manchuria.jpg" width="100px" height="100px">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\friees.jpg" class="image" width="100px" height="100px">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\noodles.jpeg"class="image" width="100px" height="100px">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\chiccken.jpeg"class="image" width="100px" height="100px">
+<image src ="C:\Users\NAGA LAKSHMI\Pictures\shawarma.jpeg"class="image" width="100px" height="100px">
+        </div>
+    </div>
+	</body>
+</html>
